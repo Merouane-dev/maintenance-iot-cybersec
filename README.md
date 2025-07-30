@@ -52,10 +52,6 @@ Modifier
 
 ## 🚀 Lancer le projet
 
-1. Clone le repo :
- 
-git clone https://github.com/ton-utilisateur/maintenance-iot-cybersec.git
-cd maintenance-iot-cybersec
 Active ton environnement Python et installe les dépendances :
 
  
