@@ -1,13 +1,13 @@
-# 🧠 IA & Cybersécurité – Détection d’anomalies réseau (PFE 2025)
+  IA & Cybersécurité – Détection d’anomalies réseau (PFE 2025)
 
 Ce dépôt contient une preuve de concept (PoC) démontrant comment l’intelligence artificielle peut être utilisée dans le domaine de la **cybersécurité industrielle**, en détectant automatiquement des comportements anormaux dans des journaux réseau simulés.
 
-📌 Ce projet s'inscrit dans le cadre de mon **projet de fin d'études (PFE)** et répond aux exigences de la compétence **C11** du référentiel RNCP 34237 :
+  Ce projet s'inscrit dans le cadre de mon **projet de fin d'études (PFE)** et répond aux exigences de la compétence **C11** du référentiel RNCP 34237 :
 > *Compréhension d’un projet en IA dans le domaine de la cybersécurité (ex : détection de menaces)*
 
 ---
 
-## 🎯 Objectif
+  Objectif
 
 L’objectif est de détecter automatiquement :
 - des sessions réseau suspectes (exfiltration, activité soudaine, capteur compromis)
@@ -20,7 +20,7 @@ Nous utilisons un jeu de données simulé avec :
 
 ---
 
-## 🛠️ Technologies utilisées
+  Technologies utilisées
 
 - Python 3.10+
 - [pandas](https://pandas.pydata.org/)
@@ -30,7 +30,7 @@ Nous utilisons un jeu de données simulé avec :
 
 ---
 
-## 📁 Arborescence
+  Arborescence
 │
 ├── README.md
 ├── requirements.txt
@@ -47,10 +47,8 @@ Nous utilisons un jeu de données simulé avec :
 yaml
 Copier
 Modifier
-
----
-
-## 🚀 Lancer le projet
+ 
+  Lancer le projet
 
 Active ton environnement Python et installe les dépendances :
 
@@ -58,4 +56,4 @@ Active ton environnement Python et installe les dépendances :
 pip install -r requirements.txt
 Exécute le script :
 python src/detect_anomalies.py
-🎉 Le graphe anomaly_detection_plot.png sera généré dans le dossier images/.
+ Le graphe anomaly_detection_plot.png sera généré dans le dossier images/.
